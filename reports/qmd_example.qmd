@@ -9,9 +9,6 @@ bibliography: references.bib
 execute:
   echo: false
   output: false
-project:
-  type: website
-  output-dir: reports
 ---
 
 ```{r}
