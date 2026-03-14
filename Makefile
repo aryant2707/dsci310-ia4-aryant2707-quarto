@@ -16,10 +16,10 @@ results/horse_pop_plot_largest_sd.png results/horse_pops_plot.png results/horses
 
 # render quarto report in HTML and PDF
 reports/qmd_example.html: results reports/qmd_example.qmd
-	quarto render reports/qmd_example.qmd --to html
+	quarto render --to html
 
 reports/qmd_example.pdf: results reports/qmd_example.qmd
-	quarto render reports/qmd_example.qmd --to pdf
+	quarto render --to pdf
 
 # clean
 clean:
